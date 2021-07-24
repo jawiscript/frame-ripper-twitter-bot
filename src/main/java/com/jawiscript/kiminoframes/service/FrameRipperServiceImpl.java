@@ -41,10 +41,10 @@ public class FrameRipperServiceImpl implements IFrameRipperService {
     public static final String LAST_GENERATED_FRAME_PNG = "last_frame.png";
     public static final String CRON_FRAME_RIPPER_EXPRESSION = "CRON_FRAME_RIPPER_EXPRESSION";
 
-    private String oAuthConsumerKey;
-    private String oAuthConsumerSecret;
-    private String oAuthAccessToken;
-    private String oAuthAccessTokenSecret;
+    private final String oAuthConsumerKey;
+    private final String oAuthConsumerSecret;
+    private final String oAuthAccessToken;
+    private final String oAuthAccessTokenSecret;
 
     private Twitter twitter;
     private File dir;
