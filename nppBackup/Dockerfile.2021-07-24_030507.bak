@@ -11,5 +11,5 @@ ENV TWITTER_OAUTH_ACCESS_TOKEN_SECRET=Your auth access token
 ENV TWITTER_OAUTH_ACCESS_TOKEN=Your auth access token.
 ENV CRON_FRAME_RIPPER_EXPRESSION=Your cron expression.
 
-CMD ["java", "-jar", "./kiminoframes.jar", "--nogui"]
+CMD ["java" "-jar" "./kiminoframes.jar" "--nogui"]
 
