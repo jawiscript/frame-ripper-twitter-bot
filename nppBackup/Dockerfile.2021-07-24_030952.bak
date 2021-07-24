@@ -2,7 +2,7 @@
 
 FROM openjdk:11
 MAINTAINER jawiscript "saorindev@gmail.com"
-COPY ./target/kiminoframes-0.0.1-SNAPSHOT.jar /app/kiminoframes.jar
+COPY ./target/*.jar /app/kiminoframes.jar
 WORKDIR /app
 
 ENV TWITTER_OAUTH_CONSUMER_SECRET=Your auth consumer secret.
