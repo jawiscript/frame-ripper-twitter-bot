@@ -6,7 +6,7 @@ account!
 
 <h3>Usage:</h3>
 You can download and use the docker image
-at <a href="https://hub.docker.com/repository/docker/jawiscript/framesbot" target="_blank">**jawiscript/framesbot**</a>
+at <a href="https://hub.docker.com/repository/docker/jawiscript/framesbot" target="_blank">jawiscript/framesbot</a>
 DockerHub. To use the docker image you need to do the following things:
 
 - Create a volume called video in the app folder: *app/video*
