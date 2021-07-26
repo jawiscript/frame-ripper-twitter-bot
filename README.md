@@ -1,7 +1,7 @@
 <h1 align="center">Frame Ripper Bot</h1>
 <h3 align="center">Simple as that, its a bot that rips random frames of a video and posts it on Twitter. </h3>
 
-It's currently working at <a href="https://twitter.com/FramesBot" target="_blank"> **Kimi no Frames** </a> Twitter
+It's currently working at <a href="https://twitter.com/KimiNoScreens" target="_blank"> **Kimi no Frames** </a> Twitter
 account!
 
 <h3>Usage:</h3>
@@ -24,7 +24,7 @@ To use the docker image you need to do the following things:
 
 - Bind the container's path `/app/video` to any folder on your host machine, for example: `/home/user/video`, you'll use this folder to upload the video you want the bot to get the frames from.
 - Make sure you upload only one video on your binded folder, and its `.mp4` format.
-  - *NOTE: If there is more than one video, the bot will use the firs one it finds (Alphabetic order)*
+  - *NOTE: If there is more than one video, the bot will use the first one it finds (Alphabetic order)*
 
 - Set up the following environment variables with your twitter developer api keys:
   - TWITTER_OAUTH_CONSUMER_KEY = Your auth consumer key.
